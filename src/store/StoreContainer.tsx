@@ -10,7 +10,7 @@ import { Loading } from "../screens/shared/Loading";
 interface StoreContainerProps {
 	children: React.ReactNode;
 }
-const apiOffset = 0;
+const apiOffset = 151;
 const apiLimit = 100;
 export function StoreContainer(props: StoreContainerProps) {
 	const initialState = EMPTY_STATE;
